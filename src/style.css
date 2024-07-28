@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body,
+h1
+ {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+
+.navbar{
+  background-color: rgb(0, 0, 0);
+  
+}
+.btnRegister {
+  background-color: rgb(16, 233, 143);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.btnLogin {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+span {
+  color: rgb(17, 173, 17);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+
+.create {
+  max-width: 400px;
+  margin: auto;
+}
+
+.create-form {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+
+.create-form input,
+.create-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+
+.create-form textarea {
+  height: 200px;
+  resize: vertical; 
+}
+
+
+.create-form button {
+ width: 100%;
+  background: #000000;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+.create-form button:hover {
+  background: #000000;
+}
+
+.create-container {
+  position: absolute;
+  right: 0px;
+  margin-top: 40px;
+  width: 30%;
+
+}
+
+.content-container{
+  margin: 20px;
+  list-style: none;
+ 
+}
+
+.parent-post {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.post {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  max-width: 290px; 
+}
+
+.delete-btn{
+  background-color: rgb(236, 41, 41);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.parent-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.post p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.search-bar input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: #888;
+}
+
+.search-bar input:focus {
+  border-color: #00f;
+}
+
+.main {
+  overflow-y: scroll;
+  scrollbar-width: thin;         
+  scrollbar-color: rgb(255, 255, 255) rgb(255, 255, 255);    
+  width: 70%;
+  height: 100vh;
+}
+
+.about {
+  margin-top: 20px;
+  font-size: 14px;
+ 
+}
